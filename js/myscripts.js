@@ -1,2 +1,4 @@
-const projectName = 'product-landing-page';
-localStorage.setItem('example_project', 'Product Landing Page');
+function menuIcon(x) {
+    x.classList.toggle("change");
+    document.getElementById("nav-links").classList.toggle("hide");
+  }
