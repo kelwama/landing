@@ -5,117 +5,125 @@
 
   <script src="myscripts.js"></script>
   
-<div id="page-wrapper">
-<header id="header">
-  <div class="logo">
-    <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="original trombones logo" />
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <div id="collapse">
+        <div id="logo">
+          <a href="#top">discovr</a>
+        </div>
+        <img src="" alt="" id="header-img">
+        <div id="menu-icon" onclick="menuIcon(this)">
+          <div id="bar1"></div>
+          <div id="bar2"></div>
+          <div id="bar3"></div>
+        </div>
+      </div>
+      <div id="nav-links" class="hide">
+        <ul>
+          <li><a href="#about" class="nav-link">about</a></li>
+          <li><a href="#services" class="nav-link">services</a></li>
+          <li><a href="#contact" class="nav-link">contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="top">
+    <div id="top-img">
+      <div id="top-content">
+        <h1>
+          pack up. we cover the rest.</h1>
+      </div>
+    </div>
   </div>
 
-  <nav id="nav-bar">
-    <ul>
-      <li><a class="nav-link" href="#features">Features</a></li>
-      <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-      <li><a class="nav-link" href="#pricing">Pricing</a></li>
-    </ul>
-  </nav>
-
-</header>
-
-<div class="container">
-
-</div>
-
-<section id="hero">
-  <h2>Handcrafted, home-made masterpieces</h2>
-  <form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
-    <input id="submit" type="submit" value="Get Started" class="btn"></input>
-  </form>
-</section>
-
-
-<div class="container">
-  <section id="features">
-    <div class="grid">
-      <div class="icon">
-        <i class="fa fa-3x fa-fire"></i>
-      </div>
-      <div class="desc">
-        <h2>Premium Materials</h2>
-        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+  <div id="about">
+    <div id="about-img">
+      <div id="quote">
+        <p>"Travel and change of place impart new vigour to the mind."<br><span style="font-size: 20px; font-weight: bold;">Seneca</span>
+          <p>
       </div>
     </div>
-    <div class="grid">
-      <div class="icon">
-        <i class="fa fa-3x fa-truck"></i>
+    <div id="about-content">
+      <p><span style="font-size: 36px;font-weight: bold;font-family:'Great Vibes';padding: 5px 5px 5px 30px;">Explored</span> is a travel agency that helps natural beauty seekers by insuring all aspects of their adventures, which comprehend, safety, planning,
+        discovery, and last but not least the fun along the way.<br><br>Here are some adventures that illustrate our last year:</p>
+      <iframe src="https://www.youtube.com/embed/RcmrbNRK-jY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
+    </div>
+  </div>
+
+  <div id="services">
+    <div id="our-services">Our Services</div>
+    <div class="service" id="destination">
+      <div class="content">
+        <h2>Destination</h2>
+        <p>We will go wherever you want us to go. Islands, beaches, woods, mountains, or cities. How we get there is our concern. Choose wisely. ;)</p>
       </div>
-      <div class="desc">
-        <h2>Fast Shipping</h2>
-        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+      <div class="image">
+        <img src="https://images.pexels.com/photos/697662/pexels-photo-697662.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></div>
+    </div>
+    <div class="service" id="planning">
+      <div class="image">
+        <img src="https://images.pexels.com/photos/297642/pexels-photo-297642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></div>
+      <div class="content">
+        <h2>Planning</h2>
+        <p>Too many things to explore? We are here to help you organize and plan your trip so you get to visit everything you desired.</p>
       </div>
     </div>
-    <div class="grid">
-      <div class="icon">
-        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+    <div class="service" id="accommodation">
+      <div class="content">
+        <h2>Accommodation</h2>
+        <p>We always ensure the place where you stay, whether it be a Hotel room, in the woods, or even on a summit. We also ensure your meals according to your preferences.</p>
       </div>
-      <div class="desc">
-        <h2>Quality Assurance</h2>
-        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+      <div class="image">
+        <img src="https://images.pexels.com/photos/6757/feet-morning-adventure-camping.jpg?auto=compress&cs=tinysrgb&h=650&w=940"></div>
+    </div>
+    <div class="service" id="tools">
+      <div class="image">
+        <img src="https://images.pexels.com/photos/933843/pexels-photo-933843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></div>
+      <div class="content">
+        <h2>Gadgets</h2>
+        <p>Need a surf board? a tent? swimming gear? We have got your back. Wherever you're planning to go, we'll worry about the eventual stuff you need.</p>
       </div>
     </div>
-  </section>
-  <section id="how-it-works">
-    <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-  </section>
-  <section id="pricing">
-    <div id="tenor">
-      <div class="level">
-        Tenor Trombone
-      </div>
-      <h2>$600</h2>
-      <ol>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum dolor.</li>
-        <li>Lorem ipsum.</li>
-      </ol>
-      <button class="btn">Select</button>
+  </div>
+  
+  <div id="contact">
+    <div id="form-container">
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h2>Get in touch!</h2>
+          <input type="text" id="name" placeholder="First Name" autocomplete="off" required class="inputs">
+          <!--<label class="name" for="name">First Name</label>-->
+        <input type="email" id="email" placeholder="Email" name="email" required class="inputs">
+        <textarea placeholder="Message" type="textarea" rows="5" id="comment" class="inputs"></textarea>
+        <input type="submit" id="submit" value="Submit">
+      </form>
     </div>
-    <div id="bass">
-      <div class="level">
-        Bass Trombone
-      </div>
-      <h2>$900</h2>
-      <ol>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum dolor.</li>
-        <li>Lorem ipsum.</li>
-      </ol>
-      <button class="btn">Select</button>
-    </div>
-    <div id="valve">
-      <div class="level">
-        Valve Trombone
-      </div>
-      <h2>$1200</h2>
-      <ol>
-        <li>Plays similar to a Trumpet</li>
-        <li>Great for Jazz Bands</li>
-        <li>Lorem ipsum dolor.</li>
-        <li>Lorem ipsum.</li>
-      </ol>
-      <button class="btn">Select</button>
-    </div>
-  </section>
+  </div>
+
   <footer>
+    <div class="bottom-links">
     <ul>
-      <li><a href="#">Privacy</a></li>
-      <li><a href="#">Terms</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <span>Copyright 2016, Original Trombones</span>
+          <li><a href="#top" class="nav-link">scroll to the top</a></li>
+          <li><a href="#about" class="nav-link">about</a></li>
+          <li><a href="#services" class="nav-link">services</a></li>
+          <li><a href="#contact" class="nav-link">contact us</a></li>
+        </ul>
+      <p>copyright © 2018 – explored</p>
+    </div>
+    <div class="social-media">
+      <p>find us on social medias</p>
+    <ul>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fab 5x fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fab 5x fa-facebook-f"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="fab 5x fa-twitter"></i></a></li>
+          <li><a href="https://www.pinterest.com" target="_blank"><i class="fab 5x fa-pinterest"></i></a></li>
+        </ul>
+    </div>
   </footer>
-</div>
-</div>
-</html>
+
+</body>
