@@ -1,427 +1,414 @@
-<html>
- 
-
-  <script src="myscripts.js"></script>
+    <header id="header" class="nav">
+      <div id="logo"><a href="#hero">
+        <img id="header-img" src="https://i.ibb.co/zQWDcdx/b029dbdb-c123-44d2-a244-2549ef2817fb.png" alt="dasani">
+          <h1 id="logo-txt"><span id="dev-txt">dasani</span><span id="box-txt">shoe</span></h1>
+        </a>
+        </div>
+      
+        <nav id="nav-bar" class="nav">
+          <a class="nav-link" href="#inside" rel="internal">Why Buy?</a>
+          <a class="nav-link" href="#pricing" rel="internal">Pricing</a>
+          <a class="nav-link" href="#subscribe" rel="internal">Subscribe</a>
+      </nav>
+    </header>
   
-<head><meta name='viewport' content='width=device-width, initial-scale=1'>
-<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'></head>
-<head>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-</head>
-<head>
+<!-- hero section --> 
+<div id="hero">
+  <h3>The water you've been waiting for.</h3>
+  <p>Drink it all and share what is left.</p>
+  <p class="strong">Only $59</p>
+  <button class="buy-btn"><a href="#pricing">Buy Now</a></button>
+  <img src="https://i.ibb.co/WVdYWJ4/dasani.jpg">
+</div>
+<!-- END of hero -->
 
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-</head>
-<body>
+<!-- what's inside section --> 
+<div id="inside">
+  <h3>Why Buy</h3>
+  <p>Cause you wanna drink.</p>
 
-<div id="page-wrapper">
-<header id="header">
-  <div class="logo">
-    <img id="header-img" src="https://i.ibb.co/stv4mDw/b029dbdb-c123-44d2-a244-2549ef2817fb.png" alt="shoe infused water" />
+  <!-- grid icons container -->
+  <div id="grid-container">
+    <div class="grid-item">
+      <img src="https://i.ibb.co/zQWDcdx/b029dbdb-c123-44d2-a244-2549ef2817fb.png">
+      <p>Drink me. Yum</p>
+    </div>
+    <div class="grid-item">
+      <img src="https://i.ibb.co/zQWDcdx/b029dbdb-c123-44d2-a244-2549ef2817fb.png">
+      <p>drink me too</p>
+    </div>
+    <div class="grid-item">
+      <img src="https://i.ibb.co/zQWDcdx/b029dbdb-c123-44d2-a244-2549ef2817fb.png">
+      <p>I wanna be drank</p>
+    </div>         
+     <div id="grid-container">
+    <div class="grid-item">
+      <img src="https://i.ibb.co/zQWDcdx/b029dbdb-c123-44d2-a244-2549ef2817fb.png">
+      <p>Drink me. Yum</p>
+    </div>
+   
   </div>
-
-  <nav id="nav-bar">
-    <ul>
-      <li><a class="nav-link" href="#features">Features</a></li>
-      <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-      <li><a class="nav-link" href="#pricing">Pricing</a></li>
-    </ul>
-  </nav>
-
-</header>
-
-<div class="container">
-
+    <!-- end of grid icon container -->
 </div>
+<!-- END of what's inside --> 
 
-<section id="hero">
-  <h2>To drink and be good</h2>
-  <form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input name="email" id="email" type="email" placeholder="Your gmail |cause nobody has anything else)" required/>
-    <input id="submit" type="submit" value="Click me :) " class="btn"></input>
+<!-- pricing section --> 
+<div id="pricing">
+  <!-- pricing top: order form --> 
+  <h3>Pricing</h3>
+  <p>Comes with shoe infused water.</p>
+  <p><span class="strong">Only $59</span><span class="striked">$129</span></p>
+</p>
+  <form>
+    <label for="number">Quantity: </label>
+    <input id="number" type="number" value="1" min="1" max="100">
+    <button type="submit" value="order-now">Order Now</button>
   </form>
-</section>
-
-
-<div class="container">
-  <section id="features">
-    <div class="grid">
-      <div class="icon">
-        <i class="fas fa-snowflake"></i>
-      </div>
-      <div class="desc">
-        <h2>Good tasting stuff, I tell ya</h2>
-        <p>You're gonna love the way it tastes</p>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="icon">
-        <i class="fas fa-skating"></i>
-      </div>
-      <div class="desc">
-        <h2>Fast Shipping</h2>
-        <p>quick arrival times because all of our delivery people have faaast shoes.</p>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="icon">
-        <i class="fas fa-first-aid" aria-hidden="true"></i>
-      </div>
-      <div class="desc">
-        <h2>It give you energy</h2>
-        <p>to drink more.</p>
-      </div>
-    </div>
-  </section>
-  <section id="how-it-works">
-    <iframe id="video" height="315" src="https://i.ibb.co/8ny2YVp/shoe-1.png" frameborder="0" allowfullscreen></iframe>
-  </section>
-  <section id="pricing">
-    <div id="tenor">
-      <div class="level">
-        half shoe water
-      </div>
-      <h2>$600</h2>
-      <ol>
-        <li>it is so good.</li>
-        <li>drink.</li>
-        <li>drinky.</li>
-        <li>mmm.</li>
-      </ol>
-      <button class="btn">Select</button>
-    </div>
-    <div id="bass">
-      <div class="level">
-       full shoe water
-      </div>
-      <h2>$900</h2>
-      <ol>
-        <li>even better yum.</li>
-        <li>drink so yum yum.</li>
-        <li>shoe taste strong.</li>
-        <li>delicious.</li>
-      </ol>
-      <button class="btn">Select</button>
-    </div>
-    <div id="valve">
-      <div class="level">
-        two shoe water
-      </div>
-      <h2>$1200</h2>
-      <ol>
-        <li>It's probably the best one</li>
-        <li>deliciouses</li>
-        <li>doesn't taste like pringles.</li>
-        <li>dogs can drink it.</li>
-      </ol>
-      <button class="btn">Select</button>
-    </div>
-  </section>
-  <footer>
-    <ul>
-      <li><a href="#">Privacy</a></li>
-      <li><a href="#">Terms</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <span>Copyright never, Original</span>
-  </footer>
+  <!-- END of order section --> 
+  <hr />
+  <!-- purchase ideas: gift/ for office --> 
+  <div class="purchase-ideas">
+    <img src="https://i.ibb.co/zQWDcdx/b029dbdb-c123-44d2-a244-2549ef2817fb.png">
+    <h4>Gift it</h4>
+    <p>Get if for someone you care about! cause they get thirsty too.</p>
+  </div>
+  <div class="purchase-ideas">
+    <img src="https://hakabuk.com/fcc/resources/product-landing-page/icons/team.png"></img>
+    <h4>Buy it for the office</h4>
+    <p>Get a special price for 5 or more bottles, and stack up for a dry day in the office - your thirsty pals will appreciate it.</p>
+  </div>  
+  <!-- END of purchase ideas section --> 
 </div>
-</div>
-</html>
+<!-- END of pricing section --> 
 
+<!-- subscribe section --> 
+<div id="subscribe">
+  <h3>Tips</h3>
+  <p>Subscribe to our mailing list, and we will tell you how to drink the water.</p>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <label for="email">Email: </label>
+    <input id="email" type="email" name="email" placeholder="email" required />
+    <input id="submit" type="submit" value="subscribe"></input>
+  </form>
+  <div id="vid">
+    <p>Look how good I am:</p>
+    <iframe id="video" width="560" height="315" src="https://i.ibb.co/CmNpCgd/shoe-1.png" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+</div>  
+<!-- footer section --> 
+<footer id="credit">Created by <a class="white-link" href="https://ibb.co/WVdYWJ4" target="_blank">Me</a><br>Icons from <a class="white-link" href="https://thenounproject.com/" target="_blank">me</a></footer>
+<!-- END of footer --> 
 
-
-
-@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
-
+html,
+body {
+  font-family: 'monospace', sans-serif;
+  text-align: center;
+}
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-
-body {
-  background-color: #eee;
- font-family: 'Nanum Pen Script', cursive;
+#header {
+  width: 100%;
+  background-color: #008080;
+  height: 50px;
+  position: fixed;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0ebe8;
+  z-index: 1;
 }
-
-#page-wrapper {
-  position: relative;
+#logo {
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+  float: left;
 }
-
-li {
-  list-style: none;
+/* logo image hidden for now */
+#header-img {
+  height: 40px;
+  margin: 5px;
+  float: left;
 }
+#logo-txt {
+  font-size: 40px;
+  display: inline-block;
+  float: left;
+  color: white;
+}
+#dev-txt {
+  font-family: 'monospace', cursive;
+  letter-spacing: 2.5px;
+}
+#box-txt {
+  font-family: 'sans-serif', cursive;
+}
+/* nav bar */
+#nav-bar {
+  margin: 30px 0;
+  margin-top: 25px;
+  float: right;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+.nav-link {
+  font-size: 18px;
+  color: white;
+  padding: 10px 30px;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+.nav-link:hover,
+.active {
+  background-color: #92b9af;
+}
+#hero {
+  top: 0;
+  background: #fffff0;
+  min-height: 45vh;
+  padding-top: 20vh;
+}
+h3 {
+  color: black;
+  font-family: 'monospace', sans-serif;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black;
+}
+p, form {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.strong {
+  font-weight: bold;
+}
+button {
+  display: block;
+  margin: 0 auto;
+}
+#hero img {
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#inside, #subscribe, #pricing {
+  padding-top: 70px;
+  margin-top: -70px;
+}
+button, #submit {
+  font-size: 24px;
+  padding: 5px 15px;
+  background-color: black;
+  border: 0;
+  margin: 20px auto;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px #808785;
+  vertical-align:top;
+  display: block;
+  outline:none;
+}
+button, button:hover, button:focus, button a, button a:hover, button a:focus, #submit, #submit:hover, submit:focus {
+  text-decoration: none;
+  color: white;
+}
+/* end of hero */ 
 
-a {
-  color: #000;
+/* what's inside section */ 
+#grid-container {
+  max-width: 80%;
+  margin: 30px auto 50px auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-item img {
+  width: 100px;
+  padding: 0 10px;
+}
+.grid-item p {
+  text-align: center;
+  font-size: 16px;
+  width: 120px;
+  margin: 0 auto;
+}
+/* end of what's inside */ 
+
+/* pricing section */ 
+.striked {
+  color: 	#585858;
+  text-decoration: line-through;
+  padding-left: 20px;
+  font-size: 18px;
+}
+#number {
+  height: 24px;
+  font-size: 18px;
+  width: 50px;
+  padding-left: 10px;
+}
+#number:focus {   
+  outline: none;
+}
+hr {
+  width: 90%; 
+  margin: 0 auto;
+}
+.purchase-ideas {
+  text-align: left;
+  width: 40%;
+  display: inline-block; 
+  vertical-align: top;
+  padding: 0 20px 30px 20px;
+}
+.purchase-ideas img {
+  padding-top: 20px;
+  width: 30px;
+  display: inline-block;
+}
+.purchase-ideas h4 {
+  vertical-align: middle;
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.purchase-ideas p {
+  font-size: 16px;
+}
+/* end of pricing */ 
+
+/* subscribe */ 
+#email {
+  height: 24px;
+  font-size: 18px;
+  width: 200px;
+  padding: 0 0 0 10px;
+}
+#email:focus {   
+  outline: none;
+}
+form {
+  padding: 20px 0;
+}
+#vid {
+  margin: 20px 0 50px 0;
+}
+/* end of subscribe */ 
+
+#credit {
+  padding: 8px 0;
+  margin: 0;
+  font-size: 12px;
+  background: #22313F;
+  color: white;
+}
+#credit a {
+  color: white;
   text-decoration: none;
 }
 
-/** global classes styling **/
-
-.container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.btn {
-  padding: 0 20px;
-  height: 40px;
-  font-size: 1em;
-  font-weight: 900;
-  text-transform: uppercase;
-  border: 3px black solid;
-  border-radius: 2px;
-  background: transparent;
-  cursor: pointer;
-}
-
-.grid {
-  display: flex;
-}
-
-// navigation bar
-
-header {
-  position: fixed;
-  top: 0;
-  min-height: 75px;
-  padding: 0px 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #eee;
-  @media (max-width: 600px) {
-    flex-wrap: wrap;
+@media (max-width: 700px) {
+  #header {
+    position: absolute;
   }
-}
-
-.logo {
-  width: 60vw;
-  
-  @media (max-width: 650px) {
-    margin-top: 15px;
-    width: 100%;
-    position: relative;
+  #header-img {
+    display: none;
   }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    max-width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 20px;
-    @media (max-width: 650px) {
-      margin: 0 auto;
-    }
+  #logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
   }
-}
-
-nav {
-  font-weight: 400;
-  
-  @media (max-width: 650px) {
-    margin-top: 10px;
+  #logo-txt {
+    float: none;
+    margin: 0 auto;
+  }
+  #nav-bar {
+    min-width: 200px;
+    background-color: #22313F;
     width: 100%;
-    display: flex;
+    margin: 0 auto;
+    padding-bottom: 1px;
     flex-direction: column;
-    align-items: center;
+  }
+  .nav-link {
     text-align: center;
-    padding: 0 50px;
-    
-    li {
-     padding-bottom: 5px; 
-    }
+    padding: 10px;
+    font-size: 18px;
   }
-  
-  ul {
-    width: 35vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    @media (max-width: 650px) {
-      flex-direction: column;
-    }
+  #hero {
+    padding-top: 220px;
   }
-}
-
-// hero
-
-#hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 200px;
-  margin-top: 50px;
-  h2 {
-    margin-bottom: 20px;
-    word-wrap: break-word;
+  h3 {
+    font-size: 40px;
   }
-
-  input[type="email"] {
-    max-width: 275px;
-    width: 100%;
-    padding: 5px;
+  p, form {
+    font-size: 18px;
   }
-
-  input[type="submit"] {
-    max-width: 150px;
-    width: 100%;
-    height: 30px;
-    margin: 15px 0;
-    border: 0;
-    background-color: #0077be;
-    
-    &:hover {
-      background-color: grey;
-      transition: background-color 1s;
-    }
+  button, input {
+    font-size: 18px;
   }
-  
-  @media (max-width: 650px) {
-    margin-top: 120px;
+  #hero img {
+    padding-bottom: 10px;
   }
-}
-
-// features
-
-#features {
-  margin-top: 30px;
-  .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 125px;
-    width: 20vw;
-    color: #0077be;
-
-    @media (max-width: 550px) {
-      display: none;
-    }
-  }
-
-  .desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 125px;
-    width: 80vw;
-    padding: 5px;
-
-    @media (max-width: 550px) {
-      width: 100%;
-      text-align: center;
-      padding: 0;
-      height: 150px;
-    }
-  }
-  
-  @media (max-width: 650px) {
+  #inside, #subscribe, #pricing {
+    padding-top: 0;
     margin-top: 0;
   }
-}
-
-// how it works
-
-#how-it-works {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  
-  iframe {
-    max-width: 560px;
-    width: 100%;
+  #pricing {
+    background-color: #e0ebe8;
+    padding-bottom: 10px;
+  }
+  p, h3, form {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #grid-container {
+    width: 95%;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    justify-content: center;
+  }
+  .grid-item img {
+    width: 60px;
+    padding: 0;
+  }
+  .grid-item p {
+    font-size: 14px;
+  }
+  .purchase-ideas {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .purchase-ideas h4 {
+    margin-left: 0;
+  }
+  #video {
+    width: 90%; 
+    margin: 0 auto; 
   }
 }
 
-// pricing
-
-#pricing {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
-  #tenor, #bass, #valve {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: calc(100%  / 3);
-    margin: 10px;
-    border: 1px solid #000;
-    border-radius: 3px;
-    
-    .level {
-      background-color: #ddd;
-      color: black;
-      padding: 15px 0;
-      width: 100%;
-      text-transform: uppercase;
-      font-weight: 700;
-    }
-    
-    h2 {
-      margin-top: 15px;
-    }
-    
-    ol {
-      margin: 15px 0;
-      
-      li { padding: 5px 0; }
-    }
-    
-    button {
-      border: 0;
-      margin: 15px 0;
-      background-color:#0077be;
-      font-weight: 400;
-      
-      &:hover {
-        background-color: orange;
-        transition: background-color 1s;
-      }
-    }
+@media (max-width: 400px) {
+  #hero img {
+    width: 80%;
   }
-  
-  @media (max-width: 800px) {
-    flex-direction: column;
-    
-    #tenor, #bass, #valve { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
+  h3 {
+    line-height: 1em;
+    padding-top: 10px;
   }
-}
-
-// footer
-
-footer {
-  margin-top: 30px;
-  background-color: #ddd;
-  padding: 20px;
-  
-  ul {
-    display: flex;
-    justify-content: flex-end;
-    
-    li {
-      padding: 0 10px;
-    }
+#grid-container {
+    grid-template-columns: auto auto;
   }
-  
-  span {
-    margin-top: 5px;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 0.9em;
-    color: #444;
+  p, h3, form {
+    width: 80%;
   }
 }
