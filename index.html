@@ -3,127 +3,424 @@
 
   <script src="myscripts.js"></script>
   
+<head><meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'></head>
 <head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 </head>
+<head>
 
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
 <body>
-  <header id="header">
-    <nav id="nav-bar">
-      <div id="collapse">
-        <div id="logo">
-          <a href="#top">discovr</a>
-        </div>
-        <img src="" alt="" id="header-img">
-        <div id="menu-icon" onclick="menuIcon(this)">
-          <div id="bar1"></div>
-          <div id="bar2"></div>
-          <div id="bar3"></div>
-        </div>
-      </div>
-      <div id="nav-links" class="hide">
-        <ul>
-          <li><a href="#about" class="nav-link">about</a></li>
-          <li><a href="#services" class="nav-link">services</a></li>
-          <li><a href="#contact" class="nav-link">contact us</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
 
-  <div id="top">
-    <div id="top-img">
-      <div id="top-content">
-        <h1>
-          pack up. we cover the rest.</h1>
-      </div>
-    </div>
+<div id="page-wrapper">
+<header id="header">
+  <div class="logo">
+    <img id="header-img" src="https://i.ibb.co/stv4mDw/b029dbdb-c123-44d2-a244-2549ef2817fb.png" alt="shoe infused water" />
   </div>
 
-  <div id="about">
-    <div id="about-img">
-      <div id="quote">
-        <p>"Travel and change of place impart new vigour to the mind."<br><span style="font-size: 20px; font-weight: bold;">Seneca</span>
-          <p>
-      </div>
-    </div>
-    <div id="about-content">
-      <p><span style="font-size: 36px;font-weight: bold;font-family:'Great Vibes';padding: 5px 5px 5px 30px;">Explored</span> is a travel agency that helps natural beauty seekers by insuring all aspects of their adventures, which comprehend, safety, planning,
-        discovery, and last but not least the fun along the way.<br><br>Here are some adventures that illustrate our last year:</p>
-      <iframe src="https://www.youtube.com/embed/RcmrbNRK-jY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
-    </div>
-  </div>
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#features">Features</a></li>
+      <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+      <li><a class="nav-link" href="#pricing">Pricing</a></li>
+    </ul>
+  </nav>
 
-  <div id="services">
-    <div id="our-services">Our Services</div>
-    <div class="service" id="destination">
-      <div class="content">
-        <h2>Destination</h2>
-        <p>We will go wherever you want us to go. Islands, beaches, woods, mountains, or cities. How we get there is our concern. Choose wisely. ;)</p>
-      </div>
-      <div class="image">
-        <img src="https://images.pexels.com/photos/697662/pexels-photo-697662.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></div>
-    </div>
-    <div class="service" id="planning">
-      <div class="image">
-        <img src="https://images.pexels.com/photos/297642/pexels-photo-297642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></div>
-      <div class="content">
-        <h2>Planning</h2>
-        <p>Too many things to explore? We are here to help you organize and plan your trip so you get to visit everything you desired.</p>
-      </div>
-    </div>
-    <div class="service" id="accommodation">
-      <div class="content">
-        <h2>Accommodation</h2>
-        <p>We always ensure the place where you stay, whether it be a Hotel room, in the woods, or even on a summit. We also ensure your meals according to your preferences.</p>
-      </div>
-      <div class="image">
-        <img src="https://images.pexels.com/photos/6757/feet-morning-adventure-camping.jpg?auto=compress&cs=tinysrgb&h=650&w=940"></div>
-    </div>
-    <div class="service" id="tools">
-      <div class="image">
-        <img src="https://images.pexels.com/photos/933843/pexels-photo-933843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"></div>
-      <div class="content">
-        <h2>Gadgets</h2>
-        <p>Need a surf board? a tent? swimming gear? We have got your back. Wherever you're planning to go, we'll worry about the eventual stuff you need.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div id="contact">
-    <div id="form-container">
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <h2>Get in touch!</h2>
-          <input type="text" id="name" placeholder="First Name" autocomplete="off" required class="inputs">
-          <!--<label class="name" for="name">First Name</label>-->
-        <input type="email" id="email" placeholder="Email" name="email" required class="inputs">
-        <textarea placeholder="Message" type="textarea" rows="5" id="comment" class="inputs"></textarea>
-        <input type="submit" id="submit" value="Submit">
-      </form>
-    </div>
-  </div>
+</header>
 
+<div class="container">
+
+</div>
+
+<section id="hero">
+  <h2>To drink and be good</h2>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input name="email" id="email" type="email" placeholder="Your gmail |cause nobody has anything else)" required/>
+    <input id="submit" type="submit" value="Click me :) " class="btn"></input>
+  </form>
+</section>
+
+
+<div class="container">
+  <section id="features">
+    <div class="grid">
+      <div class="icon">
+        <i class="fas fa-snowflake"></i>
+      </div>
+      <div class="desc">
+        <h2>Good tasting stuff, I tell ya</h2>
+        <p>You're gonna love the way it tastes</p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="icon">
+        <i class="fas fa-skating"></i>
+      </div>
+      <div class="desc">
+        <h2>Fast Shipping</h2>
+        <p>quick arrival times because all of our delivery people have faaast shoes.</p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="icon">
+        <i class="fas fa-first-aid" aria-hidden="true"></i>
+      </div>
+      <div class="desc">
+        <h2>It give you energy</h2>
+        <p>to drink more.</p>
+      </div>
+    </div>
+  </section>
+  <section id="how-it-works">
+    <iframe id="video" height="315" src="https://i.ibb.co/8ny2YVp/shoe-1.png" frameborder="0" allowfullscreen></iframe>
+  </section>
+  <section id="pricing">
+    <div id="tenor">
+      <div class="level">
+        half shoe water
+      </div>
+      <h2>$600</h2>
+      <ol>
+        <li>it is so good.</li>
+        <li>drink.</li>
+        <li>drinky.</li>
+        <li>mmm.</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+    <div id="bass">
+      <div class="level">
+       full shoe water
+      </div>
+      <h2>$900</h2>
+      <ol>
+        <li>even better yum.</li>
+        <li>drink so yum yum.</li>
+        <li>shoe taste strong.</li>
+        <li>delicious.</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+    <div id="valve">
+      <div class="level">
+        two shoe water
+      </div>
+      <h2>$1200</h2>
+      <ol>
+        <li>It's probably the best one</li>
+        <li>deliciouses</li>
+        <li>doesn't taste like pringles.</li>
+        <li>dogs can drink it.</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+  </section>
   <footer>
-    <div class="bottom-links">
     <ul>
-          <li><a href="#top" class="nav-link">scroll to the top</a></li>
-          <li><a href="#about" class="nav-link">about</a></li>
-          <li><a href="#services" class="nav-link">services</a></li>
-          <li><a href="#contact" class="nav-link">contact us</a></li>
-        </ul>
-      <p>copyright © 2018 – explored</p>
-    </div>
-    <div class="social-media">
-      <p>find us on social medias</p>
-    <ul>
-          <li><a href="https://www.instagram.com" target="_blank"><i class="fab 5x fa-instagram"></i></a></li>
-          <li><a href="https://www.facebook.com" target="_blank"><i class="fab 5x fa-facebook-f"></i></a></li>
-          <li><a href="https://www.twitter.com" target="_blank"><i class="fab 5x fa-twitter"></i></a></li>
-          <li><a href="https://www.pinterest.com" target="_blank"><i class="fab 5x fa-pinterest"></i></a></li>
-        </ul>
-    </div>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright never, Original</span>
   </footer>
+</div>
+</div>
+</html>
 
-</body>
 
-    font-weight: 100; 
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+ font-family: 'Nanum Pen Script', cursive;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/** global classes styling **/
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+}
+
+// navigation bar
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 60vw;
+  
+  @media (max-width: 650px) {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    @media (max-width: 650px) {
+      margin: 0 auto;
+    }
+  }
+}
+
+nav {
+  font-weight: 400;
+  
+  @media (max-width: 650px) {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    
+    li {
+     padding-bottom: 5px; 
+    }
+  }
+  
+  ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    @media (max-width: 650px) {
+      flex-direction: column;
+    }
+  }
+}
+
+// hero
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+  input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  input[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #0077be;
+    
+    &:hover {
+      background-color: grey;
+      transition: background-color 1s;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    margin-top: 120px;
+  }
+}
+
+// features
+
+#features {
+  margin-top: 30px;
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: #0077be;
+
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+
+    @media (max-width: 550px) {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    margin-top: 0;
+  }
+}
+
+// how it works
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  
+  iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+}
+
+// pricing
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  #tenor, #bass, #valve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    
+    .level {
+      background-color: #ddd;
+      color: black;
+      padding: 15px 0;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    
+    h2 {
+      margin-top: 15px;
+    }
+    
+    ol {
+      margin: 15px 0;
+      
+      li { padding: 5px 0; }
+    }
+    
+    button {
+      border: 0;
+      margin: 15px 0;
+      background-color:#0077be;
+      font-weight: 400;
+      
+      &:hover {
+        background-color: orange;
+        transition: background-color 1s;
+      }
+    }
+  }
+  
+  @media (max-width: 800px) {
+    flex-direction: column;
+    
+    #tenor, #bass, #valve { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
+  }
+}
+
+// footer
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    
+    li {
+      padding: 0 10px;
+    }
+  }
+  
+  span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+}
